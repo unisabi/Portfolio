@@ -1,0 +1,88 @@
+* {
+    /* border: 2px dotted red; */
+}
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+nav h1 {
+    background-color: teal;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+nav button {
+    background-color: transparent;
+    color: white;
+    margin: 0 10px;
+    border-bottom: 2px solid teal;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.col1 {
+    width: 20%;
+    border-right: 4px solid black;
+}
+
+.col2 {
+    width: 75%;
+}
+
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.app {
+    position: relative;
+    width: 48%;
+    border: 4px solid black;
+    border-radius: 12px;
+    margin: 5px 0;
+}
+
+.app img {
+    width: 100%;
+    height: 100%;
+}
+
+.app div {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    opacity: .65;
+}
+
+.app:first-child {
+    width: 100%;
+    height: 30vh;
+}
+
