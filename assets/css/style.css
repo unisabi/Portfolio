@@ -80,9 +80,9 @@ main {
     padding: 5px;
     opacity: .65;
 }
-
+/* first image inside of the apps */
 .app:first-child {
     width: 100%;
-    height: 30vh;
+    height: 50vh;
 }
 
