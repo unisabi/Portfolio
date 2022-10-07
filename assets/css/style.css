@@ -15,6 +15,7 @@ nav {
     padding: 5px;
 }
 
+/* editing the buttons to keep with standards */
 nav h1 {
     background-color: teal;
     padding: 10px;
@@ -48,6 +49,7 @@ main {
 .col2 {
     width: 75%;
 }
+/* editing the images to look pretty */
 
 .apps {
     display: flex;
