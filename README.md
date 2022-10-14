@@ -6,7 +6,7 @@ Wrote a css text to keep my webpage colorful and pretty by editing it any color 
 Coded the html file to keep it oragnize and have added text about myself and properly linked images to view. 
 
 ## Resources
-
+https://www.w3schools.com/html/html_images.asp
 
 ## Contact Me
 
